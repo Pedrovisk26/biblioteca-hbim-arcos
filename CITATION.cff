@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Se você utilizar estes materiais, cite o conjunto de dados e seus autores."
+type: dataset
+title: "Biblioteca HBIM de elementos arqueados históricos"
+abstract: >-
+  Famílias paramétricas do Autodesk Revit, malhas fotogramétricas e vídeos de
+  referência de portas e janelas históricas, produzidos para pesquisa sobre
+  bibliotecas de objetos em Heritage Building Information Modeling (HBIM).
+authors:
+  - family-names: "Coutinho"
+    given-names: "Pedro Lucas"
+  - family-names: "Ribeiro"
+    given-names: "Raquel"
+version: 0.1.0
+date-released: 2026-08-11
+license: CC-BY-4.0
+repository-code: "https://github.com/Pedrovisk26/biblioteca-hbim-arcos"
+url: "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases"
+keywords:
+  - HBIM
+  - patrimônio histórico
+  - modelagem paramétrica
+  - biblioteca de objetos
+  - fotogrametria
+  - Autodesk Revit
+  - gestão de ativos

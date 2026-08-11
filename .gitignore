@@ -1,0 +1,42 @@
+# Manuscrito inédito e documentos de trabalho
+9_A_ERA_BIM_74415A54_rev00.pdf
+*.doc
+*.docx
+~$*
+
+# Fontes locais e artefatos pesados (distribuídos somente por Releases)
+Arquivos Revit/
+Malha densa/
+Videos/
+.release/
+*.rfa
+*.obj
+*.mtl
+*.mp4
+
+# Backups e temporários do Autodesk Revit
+*.0???.rfa
+*.000?.rfa
+*.slog
+*.dat
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.*
+secrets.*
+
+# Sistema e ferramentas
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.log
+.idea/
+.vscode/
