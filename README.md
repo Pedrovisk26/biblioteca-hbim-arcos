@@ -35,11 +35,11 @@ Use o arquivo `SHA256SUMS.txt` da versão para verificar a integridade dos pacot
 
 | Pacote da versão 0.1.0 | Tamanho aproximado |
 | --- | ---: |
-| `Janela_01_HBIM_v0.1.0.zip` | 197 MiB |
-| `Janela_02_HBIM_v0.1.0.zip` | 486 MiB |
-| `Janela_05_HBIM_v0.1.0.zip` | 571 MiB |
-| `Janela_06_HBIM_v0.1.0.zip` | 1,10 GiB |
-| `Porta_01_HBIM_v0.1.0.zip` | 191 MiB |
+| `Janela_01_HBIM_v0.1.0.zip` | 92 MiB |
+| `Janela_02_HBIM_v0.1.0.zip` | 405 MiB |
+| `Janela_05_HBIM_v0.1.0.zip` | 378 MiB |
+| `Janela_06_HBIM_v0.1.0.zip` | 496 MiB |
+| `Porta_01_HBIM_v0.1.0.zip` | 81 MiB |
 
 ## Como usar
 
@@ -62,7 +62,7 @@ Os arquivos RFA não são retrocompatíveis: uma família salva no Revit 2027 n�
 ## Proteção, privacidade e procedência
 
 - O manuscrito inédito, os vídeos originais com áudio e os arquivos temporários de trabalho são excluídos do Git e não fazem parte das versões públicas.
-- Os vídeos distribuídos foram derivados dos originais com remoção de áudio e metadados de captura.
+- Os vídeos distribuídos foram derivados dos originais com remoção de áudio e metadados de captura e conversão para H.264 vertical em 608 × 1080 pixels.
 - Amostras visuais dos vídeos foram revisadas para reduzir o risco de exposição de pessoas ou informações pessoais. Ainda assim, comunique qualquer problema pelos canais indicados em [SECURITY.md](SECURITY.md).
 - Os arquivos RFA podem conservar metadados técnicos próprios do Autodesk Revit, como versão, identificadores internos e histórico do documento.
 
