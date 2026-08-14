@@ -2,7 +2,7 @@
 
 Dados e objetos digitais produzidos para a pesquisa **“Modelagem paramétrica e biblioteca de objetos em HBIM como ativo de informação para valorização do patrimônio histórico”** (*Parametric modeling and object libraries in HBIM as information assets for heritage preservation*).
 
-**Autores:** Pedro Lucas Coutinho, Raquel Ribeiro Sant’Anna, Cristiano Saad Travassos do Carmo, Renata Gonçalves Faisca, Sarah Ferreira Margon e Thiago Ribeiro da Paixão.
+**Autores:** 
 
 ## Sobre a pesquisa
 
