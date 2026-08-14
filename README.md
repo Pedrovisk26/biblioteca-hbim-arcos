@@ -8,7 +8,7 @@ Dados e objetos digitais produzidos para a pesquisa **“Modelagem paramétrica 
 
 O projeto investiga um fluxo de trabalho replicável para documentar, modelar e disponibilizar elementos arqueados de edificações históricas brasileiras. A proposta relaciona fotogrametria, malhas densas e famílias paramétricas no contexto do *Heritage Building Information Modeling* (HBIM), tratando o patrimônio edificado como ativo físico e como ativo de informação.
 
-O recorte inicial reúne portas e janelas de linguagem neoclássica ou eclética, com ênfase em arcos plenos e abatidos. Os materiais apoiam atividades de documentação, conservação, modelagem e gestão do patrimônio.
+O recorte inicial reúne janelas e portas de linguagem neoclássica e eclética, com ênfase em arcos plenos, abatidos e semi-elipticos. Os materiais apoiam atividades de documentação, conservação, modelagem e gestão do patrimônio.
 
 Este repositório acompanha um **manuscrito em elaboração** para o 9º Congresso Internacional A ERA BIM – SINAENCO (São Paulo, 24–26 de novembro de 2026). O PDF de trabalho não integra a distribuição pública, pois ainda contém comentários editoriais e seções em revisão. A presença desta referência não significa aceite ou publicação do artigo.
 
