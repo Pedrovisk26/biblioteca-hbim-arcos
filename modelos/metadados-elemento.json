@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "id": "HBIM-JAN-0001",
+  "nome": null,
+  "nomes_legados": [],
+  "tipo": null,
+  "edificio_id": null,
+  "classificacao": {
+    "forma_arco": null,
+    "linguagem_arquitetonica": null,
+    "evidencia": null
+  },
+  "procedencia": {
+    "sessao_id": null,
+    "metodo": null,
+    "data_captura": null,
+    "referencia_publica_fonte": null
+  },
+  "geometria": {
+    "unidade_malha": null,
+    "unidade_parametros_dimensionais": null,
+    "sistema_coordenadas": null,
+    "origem": null,
+    "metodo_verificacao_escala": null
+  },
+  "componentes_disponiveis": [],
+  "componentes_ausentes": [],
+  "transformacoes": [],
+  "validacoes": [],
+  "autoria": [],
+  "licenca": null,
+  "publicacoes": [],
+  "limitacoes": [],
+  "pendencias": [
+    "Preencher e revisar antes da publicação; ID deste modelo é ilustrativo."
+  ],
+  "estado": "rascunho",
+  "revisado_por": null,
+  "data_revisao": null
+}

@@ -11,3 +11,6 @@
 *.obj binary
 *.mtl binary
 *.mp4 binary
+
+# Metadados e inventários estruturados
+*.json text eol=lf

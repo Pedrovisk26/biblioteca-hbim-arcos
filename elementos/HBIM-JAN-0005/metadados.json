@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "id": "HBIM-JAN-0005",
+  "nome": "Janela 05",
+  "nomes_legados": [
+    "Janela 05"
+  ],
+  "tipo": "janela",
+  "edificio_id": null,
+  "classificacao": {
+    "forma_arco": null,
+    "linguagem_arquitetonica": null,
+    "evidencia": null
+  },
+  "procedencia": {
+    "sessao_id": null,
+    "metodo": null,
+    "data_captura": null,
+    "referencia_publica_fonte": null
+  },
+  "geometria": {
+    "unidade_malha": null,
+    "unidade_parametros_dimensionais": null,
+    "sistema_coordenadas": null,
+    "origem": null,
+    "metodo_verificacao_escala": null
+  },
+  "componentes_disponiveis": [
+    {
+      "componente": "conjunto",
+      "formato": "RFA",
+      "compatibilidade_por_arquivo": null
+    }
+  ],
+  "componentes_ausentes": [],
+  "transformacoes": [],
+  "validacoes": [],
+  "autoria": [
+    "Pedro Lucas Coutinho",
+    "Raquel Ribeiro"
+  ],
+  "licenca": "CC-BY-4.0",
+  "publicacoes": [
+    {
+      "versao_pacote": "0.1.0",
+      "tag_biblioteca": "v0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_05_HBIM_v0.1.0.zip",
+      "sha256_zip": "e5711ded0a599ab2d951bc45b003403a4c9bb56a047fa57ce1cb77f573d8d358"
+    }
+  ],
+  "limitacoes": [
+    "MTL e imagens de textura não distribuídos na versão 0.1.0"
+  ],
+  "pendencias": [
+    "Inspecionar arquivos e suas dependências",
+    "Confirmar unidades, escala e coordenadas",
+    "Documentar versão do Revit por arquivo",
+    "Confirmar edifício, captura e classificação"
+  ],
+  "estado": "cadastro-documental-com-verificacao-tecnica-pendente",
+  "revisado_por": null,
+  "data_revisao": null,
+  "base_documental": {
+    "url_readme": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/blob/cefa868f3636be415f8dd809b02332969f261fed/README.md",
+    "commit": "cefa868f3636be415f8dd809b02332969f261fed",
+    "data_registro": "2026-10-07",
+    "conteudo_binario_inspecionado": false
+  },
+  "formatos_declarados": {
+    "malha": "OBJ",
+    "video": "MP4 sem áudio",
+    "versoes_revit_no_readme": [
+      "2027"
+    ],
+    "software_malhas": {
+      "nome": "RealityScan",
+      "versao": "2.2"
+    }
+  }
+}

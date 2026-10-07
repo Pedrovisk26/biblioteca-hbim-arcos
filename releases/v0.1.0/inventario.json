@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "tipo": "inventario-historico-documental",
+  "tag_biblioteca": "v0.1.0",
+  "url_release": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0",
+  "data_registro_documental": "2026-10-07",
+  "pacotes": [
+    {
+      "elemento_id": "HBIM-JAN-0001",
+      "elemento_legado": "Janela 01",
+      "nome": "Janela_01_HBIM_v0.1.0.zip",
+      "versao_pacote": "0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_01_HBIM_v0.1.0.zip",
+      "tamanho_bytes": 96256988,
+      "sha256": "1339fd4d1d13cae6af86ef5fc6c62172739132da7f023cf6163b5d40806d69fe",
+      "conteudo_binario_verificado": false
+    },
+    {
+      "elemento_id": "HBIM-JAN-0002",
+      "elemento_legado": "Janela 02",
+      "nome": "Janela_02_HBIM_v0.1.0.zip",
+      "versao_pacote": "0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_02_HBIM_v0.1.0.zip",
+      "tamanho_bytes": 424754850,
+      "sha256": "78df6ee16396d7c1247cbfe67df1fe552f5735dbb770815fc665bb3d2ae42a43",
+      "conteudo_binario_verificado": false
+    },
+    {
+      "elemento_id": "HBIM-JAN-0005",
+      "elemento_legado": "Janela 05",
+      "nome": "Janela_05_HBIM_v0.1.0.zip",
+      "versao_pacote": "0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_05_HBIM_v0.1.0.zip",
+      "tamanho_bytes": 396609578,
+      "sha256": "e5711ded0a599ab2d951bc45b003403a4c9bb56a047fa57ce1cb77f573d8d358",
+      "conteudo_binario_verificado": false
+    },
+    {
+      "elemento_id": "HBIM-JAN-0006",
+      "elemento_legado": "Janela 06",
+      "nome": "Janela_06_HBIM_v0.1.0.zip",
+      "versao_pacote": "0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip",
+      "tamanho_bytes": 520371526,
+      "sha256": "3be43f8f56d0eda06fb07405a5559697d80a2d114701eead19c557646a30c6ca",
+      "conteudo_binario_verificado": false
+    },
+    {
+      "elemento_id": "HBIM-POR-0001",
+      "elemento_legado": "Porta 01",
+      "nome": "Porta_01_HBIM_v0.1.0.zip",
+      "versao_pacote": "0.1.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip",
+      "tamanho_bytes": 85091003,
+      "sha256": "def9b2bcfb4f509f3a943a8543d469b9c59621255ab5bef057f6e359b1f27f6b",
+      "conteudo_binario_verificado": false
+    }
+  ],
+  "observacao": "Documentação organizada a partir do README e da API GitHub. Pacotes publicados permanecem inalterados. Os arquivos internos não foram inspecionados nesta organização."
+}

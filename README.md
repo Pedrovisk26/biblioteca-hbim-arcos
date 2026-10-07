@@ -83,3 +83,15 @@ Autodesk e Revit são marcas de seus respectivos titulares. A disponibilização
 ## Financiamento
 
 De acordo com o manuscrito em elaboração, esta pesquisa não recebeu financiamento específico de agências dos setores público, comercial ou sem fins lucrativos.
+
+## Organização dos arquivos e continuidade do projeto
+
+A biblioteca conta com um [catálogo de elementos](catalogo/README.md), com IDs permanentes, fichas de uso e metadados individuais. O cadastro relaciona esses IDs aos nomes e pacotes da versão 0.1.0, mantendo os downloads existentes.
+
+- [Padrão de pastas, nomes e versões](docs/padrao-arquivos.md).
+- [Guia de salvamento e entrega para colaboradores](docs/guia-colaborador.md).
+- [Diagrama de demonstração](docs/diagrama.md).
+- [Modelos de ficha, metadados e inventário](modelos/README.md).
+- [Inventário documental da versão 0.1.0](releases/v0.1.0/README.md).
+
+O Git mantém documentação e metadados. Fontes de captura, projetos de processamento e modelos em edição ficam no acervo de trabalho. Arquivos pesados revisados continuam sendo distribuídos por Releases. As convenções de nomes e pacotes novos aplicam-se às próximas entregas; os pacotes já publicados conservam seus nomes e conteúdo.

@@ -25,3 +25,13 @@ Toda contribuição de dados deve indicar:
 4. limitações ou partes ausentes;
 5. licença e autoria; e
 6. resultado de uma revisão de privacidade e segurança.
+
+## Organização e salvamento dos arquivos
+
+Antes de criar ou alterar um conjunto, consultar o [catálogo](catalogo/README.md) e utilizar o ID permanente do elemento. Para novos elementos, o mantenedor reserva o ID no catálogo; IDs não devem ser duplicados ou reutilizados.
+
+Seguir o [guia do colaborador](docs/guia-colaborador.md) para saber onde salvar cada arquivo, preencher fichas e preparar uma entrega. O [padrão de arquivos](docs/padrao-arquivos.md) define nomes, revisões de trabalho, versões do Revit e estrutura dos próximos pacotes. Copiar [os modelos](modelos/README.md) para cadastrar um novo elemento.
+
+As regras gerais acima permanecem aplicáveis. Pacotes da versão 0.1.0 não devem ser renomeados ou substituídos para ajustar a organização. Alterações futuras são documentadas no histórico do elemento e publicadas em outra versão quando necessário.
+
+Na revisão, conferir ID, nomes, pastas, componentes, compatibilidade por arquivo, unidades, dependências e coerência entre catálogo, ficha e metadados. Informações não confirmadas devem permanecer explícitas como pendências, sem atribuir escala, classificação ou compatibilidade por suposição.

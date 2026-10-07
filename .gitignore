@@ -40,3 +40,24 @@ Desktop.ini
 *.log
 .idea/
 .vscode/
+
+# Acervo local e formatos adicionais conforme docs/padrao-arquivos.md.
+
+# Acervo e manuscrito: normalmente ficam fora da cópia Git.
+/trabalho-hbim/
+/manuscrito/
+/preparacao-releases/
+/historico-entregas/
+
+# Pacotes e formatos pesados adicionais: distribuir por Releases.
+*.zip
+*.7z
+*.rvt
+*.rcproj
+*.ply
+*.e57
+*.las
+*.laz
+*.ifc
+*.mov
+*.avi

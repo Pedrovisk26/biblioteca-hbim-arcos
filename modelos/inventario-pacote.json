@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "estado": "rascunho",
+  "elemento_id": "HBIM-JAN-0001",
+  "versao_pacote": null,
+  "arquivos": [
+    {
+      "caminho": "revit/revit2026/HBIM-JAN-0001_conjunto_revit2026_v0.2.0.rfa",
+      "funcao": "familia-parametrica",
+      "componente": "conjunto",
+      "formato": "RFA",
+      "software": {
+        "nome": "Autodesk Revit",
+        "versao": "2026"
+      },
+      "unidades": null,
+      "tamanho_bytes": null,
+      "sha256": null,
+      "dependencias": [],
+      "licenca": null
+    }
+  ],
+  "observacao": "Entrada ilustrativa. Substituir por arquivos reais; excluir inventario.json e SHA256SUMS.txt desta lista."
+}
