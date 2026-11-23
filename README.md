@@ -16,6 +16,10 @@ Este repositório acompanha um **manuscrito em elaboração** para o 9º Congres
 
 Nove janelas reconstruídas em sólidos a partir das malhas fotogramétricas, com dimensões em metros e materiais por componente. Cada ZIP contém o modelo em `ifc/`, a ficha e os arquivos de documentação e integridade.
 
+Os arquivos IFC4 foram gerados em uma etapa posterior ao estudo inicial. O Codex (OpenAI), ferramenta de inteligência artificial generativa, auxiliou na elaboração de scripts em Python. A reconstrução em sólidos partiu de vistas ortográficas das malhas fotogramétricas em OBJ e da conferência visual de vídeos ou fotogramas do levantamento. Os scripts usaram a biblioteca IfcOpenShell (versão 0.9.0.post1) para gerar os IFC4 com materiais de representação atribuídos aos componentes.
+
+Os nove arquivos foram reabertos no IfcOpenShell para conferir o esquema IFC4, a geometria dos sólidos e as associações de materiais. O IFC da Janela 04 também foi aberto no Autodesk Revit 2026, onde foi importado como DirectShape na categoria Janelas.
+
 | Elemento | ID | Vão (m) | Pacote IFC4 |
 | --- | --- | --- | --- |
 | [Janela 01](elementos/HBIM-JAN-0001/README.md) | HBIM-JAN-0001 | 1,876 × 2,8375 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) |
