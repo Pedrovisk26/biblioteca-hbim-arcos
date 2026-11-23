@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "id": "HBIM-JAN-0018",
+  "nome": "Janela 13",
+  "nomes_legados": [
+    "Janela 13"
+  ],
+  "tipo": "janela",
+  "edificio_id": null,
+  "classificacao": {
+    "forma_arco": null,
+    "linguagem_arquitetonica": null,
+    "evidencia": null
+  },
+  "procedencia": {
+    "sessao_id": null,
+    "metodo": "Reconstrução em sólidos a partir de malha fotogramétrica e referências visuais.",
+    "data_captura": null,
+    "referencia_publica_fonte": null
+  },
+  "geometria": {
+    "unidade_malha": "m",
+    "unidade_parametros_dimensionais": "m",
+    "sistema_coordenadas": "local",
+    "origem": "Centro da base do vão no plano do vidro.",
+    "metodo_verificacao_escala": "Escala métrica preservada do OBJ dimensionado de origem."
+  },
+  "componentes_disponiveis": [
+    {
+      "componente": "conjunto",
+      "formato": "IFC",
+      "esquema": "IFC4",
+      "compatibilidade_por_arquivo": null
+    }
+  ],
+  "componentes_ausentes": [],
+  "transformacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "processo": "Reconstrução sólida com IfcOpenShell",
+      "escala": "Escala métrica preservada do OBJ dimensionado de origem."
+    }
+  ],
+  "validacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "software": "IfcOpenShell 0.9.0.post1",
+      "procedimento": "Leitura e geração da geometria IFC4 após extração do ZIP",
+      "resultado": "aprovado"
+    }
+  ],
+  "autoria": [
+    "Pedro Lucas Coutinho",
+    "Raquel Ribeiro"
+  ],
+  "licenca": "CC-BY-4.0",
+  "publicacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "tag_biblioteca": "v0.2.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip",
+      "sha256_zip": "5717eb239b2662dffad85f0f0ceb9ce43f65433aa03a0a00698fdf845266c1e4"
+    }
+  ],
+  "limitacoes": [],
+  "pendencias": [
+    "Confirmar edifício, sessão de captura e classificação do arco."
+  ],
+  "estado": "ifc-validado",
+  "revisado_por": null,
+  "data_revisao": null,
+  "modelo_ifc": {
+    "versao_pacote": "0.2.0",
+    "arquivo": "ifc/HBIM-JAN-0018_janela-hbim_v0.2.0.ifc",
+    "esquema": "IFC4",
+    "entidade": "IfcWindow",
+    "representacao": "SweptSolid",
+    "solidos": 66,
+    "materiais": [
+      "Acabamento mineral",
+      "Madeira",
+      "Metal",
+      "Vidro"
+    ],
+    "unidade": "m",
+    "largura_vao": 1.947,
+    "altura_vao": 3.191,
+    "origem": "Centro da base do vão, no plano do vidro, com Z na vertical.",
+    "metodo_verificacao_escala": "Escala métrica preservada do OBJ dimensionado de origem.",
+    "limitacoes": [
+      "Perfis, profundidades, ferragens e ornamentos simplificados.",
+      "Materiais por componente sem texturas fotográficas.",
+      "Arquivo de intercâmbio sem parâmetros de uma família Revit nativa."
+    ]
+  }
+}

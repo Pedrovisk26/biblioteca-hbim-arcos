@@ -135,13 +135,15 @@ HBIM-JAN-0001_hbim_v0.2.0.zip
     │   │   └── HBIM-JAN-0001_conjunto_revit2026_v0.2.0.rfa
     │   └── revit2027/
     │       └── HBIM-JAN-0001_folha_revit2027_v0.2.0.rfa
+    ├── ifc/
+    │   └── HBIM-JAN-0001_janela-hbim_v0.2.0.ifc
     ├── mesh/
     │   └── HBIM-JAN-0001_malha-densa_realityscan2-2_v0.2.0.obj
     └── video/
         └── HBIM-JAN-0001_referencia-sem-audio_h264_v0.2.0.mp4
 ```
 
-Criar apenas as pastas com conteúdo disponível. A ficha informa explicitamente o que está ausente. `revit/`, `mesh/` e `video/` preservam os termos já apresentados no README. Se no futuro houver IFC, incluir `ifc/` após documentar exportador, esquema e validação, sem prometer equivalência automática à família nativa.
+Criar apenas as pastas com conteúdo disponível. A ficha informa explicitamente o que está ausente. `revit/`, `mesh/` e `video/` preservam os termos já apresentados no README. Os modelos IFC ficam em `ifc/`. Documentar a ferramenta de geração, o esquema e a validação na ficha de cada elemento.
 
 OBJ, MTL e texturas devem manter caminhos relativos válidos. Ao renomear um OBJ, revisar `mtllib`, referências do MTL e imagens associadas. Se os materiais não estiverem disponíveis, registrar a ausência; não criar um MTL fictício para aparentar um pacote completo.
 

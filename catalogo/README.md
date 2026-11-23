@@ -15,3 +15,5 @@ A numeração preserva os nomes históricos: os números 0003 e 0004 de janelas 
 O arquivo [elementos.json](elementos.json) é o índice estruturado. O mantenedor reserva novos IDs antes do início do trabalho. Os detalhes técnicos são mantidos nos metadados individuais; atualizar os campos resumidos do catálogo na mesma contribuição.
 
 Para cadastrar outro elemento, seguir o [guia](../docs/guia-colaborador.md) e copiar [os modelos](../modelos/README.md).
+
+A v0.2.0 registra as janelas 04, 10.2, 11, 12 e 13 com IDs de HBIM-JAN-0014 a HBIM-JAN-0018. Os nomes de levantamento permanecem nas fichas.

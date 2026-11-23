@@ -1,5 +1,9 @@
 # Histórico — HBIM-JAN-0001
 
+## 2026-11-23 — v0.2.0
+
+- Publicado o conjunto em IFC4 com 33 sólidos, materiais por componente e vão de 1,876 × 2,8375 m.
+
 ## 2026-10-07 — cadastro e organização documental
 
 - Registrado o ID permanente e sua correspondência com Janela 01.

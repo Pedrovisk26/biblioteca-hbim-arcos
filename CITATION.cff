@@ -3,7 +3,7 @@ message: "Se você utilizar estes materiais, cite o conjunto de dados e seus aut
 type: dataset
 title: "Biblioteca HBIM de elementos arqueados históricos"
 abstract: >-
-  Famílias paramétricas do Autodesk Revit, malhas fotogramétricas e vídeos de
+  Modelos IFC, famílias paramétricas do Revit, malhas fotogramétricas e vídeos de
   referência de portas e janelas históricas, produzidos para pesquisa sobre
   bibliotecas de objetos em Heritage Building Information Modeling (HBIM).
 authors:
@@ -11,8 +11,8 @@ authors:
     given-names: "Pedro Lucas"
   - family-names: "Ribeiro"
     given-names: "Raquel"
-version: 0.1.0
-date-released: 2026-08-11
+version: 0.2.0
+date-released: 2026-11-23
 license: CC-BY-4.0
 repository-code: "https://github.com/Pedrovisk26/biblioteca-hbim-arcos"
 url: "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases"
