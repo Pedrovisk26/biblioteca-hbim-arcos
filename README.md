@@ -2,7 +2,7 @@
 
 Dados e objetos digitais produzidos para a pesquisa **“Modelagem paramétrica e biblioteca de objetos em HBIM como ativo de informação para valorização do patrimônio histórico”** (*Parametric modeling and object libraries in HBIM as information assets for heritage preservation*).
 
-**Autores:** Pedro Lucas Coutinho e Raquel Ribeiro.
+**Autores:** 
 
 ## Sobre a pesquisa
 
@@ -12,33 +12,7 @@ O recorte inicial reúne janelas e portas de linguagem neoclássica e eclética,
 
 Este repositório acompanha um **manuscrito em elaboração** para o 9º Congresso Internacional A ERA BIM – SINAENCO (São Paulo, 24–26 de novembro de 2026). O PDF de trabalho não integra a distribuição pública, pois ainda contém comentários editoriais e seções em revisão. A presença desta referência não significa aceite ou publicação do artigo.
 
-## Janelas em IFC4 — versão 0.2.0
-
-Nove janelas reconstruídas em sólidos a partir das malhas fotogramétricas, com dimensões em metros e materiais por componente. Cada ZIP contém o modelo em `ifc/`, a ficha e os arquivos de documentação e integridade.
-
-Os arquivos IFC4 foram gerados em uma etapa posterior ao estudo inicial. O Codex (OpenAI), ferramenta de inteligência artificial generativa, auxiliou na elaboração de scripts em Python. A reconstrução em sólidos partiu de vistas ortográficas das malhas fotogramétricas em OBJ e da conferência visual de vídeos ou fotogramas do levantamento. Os scripts usaram a biblioteca IfcOpenShell (versão 0.9.0.post1) para gerar os IFC4 com materiais de representação atribuídos aos componentes.
-
-Os nove arquivos foram reabertos no IfcOpenShell para conferir o esquema IFC4, a geometria dos sólidos e as associações de materiais. O IFC da Janela 04 também foi aberto no Autodesk Revit 2026, onde foi importado como DirectShape na categoria Janelas.
-
-| Elemento | ID | Vão (m) | Pacote IFC4 |
-| --- | --- | --- | --- |
-| [Janela 01](elementos/HBIM-JAN-0001/README.md) | HBIM-JAN-0001 | 1,876 × 2,8375 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) |
-| [Janela 02](elementos/HBIM-JAN-0002/README.md) | HBIM-JAN-0002 | 1,2963 × 2,6899 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) |
-| [Janela 05](elementos/HBIM-JAN-0005/README.md) | HBIM-JAN-0005 | 1,4521 × 3,3837 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) |
-| [Janela 06](elementos/HBIM-JAN-0006/README.md) | HBIM-JAN-0006 | 1,5131 × 2,9054 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) |
-| [Janela 04](elementos/HBIM-JAN-0014/README.md) | HBIM-JAN-0014 | 1,18 × 2,6977 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) |
-| [Janela 10.2](elementos/HBIM-JAN-0015/README.md) | HBIM-JAN-0015 | 1,192 × 2,707 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
-| [Janela 11](elementos/HBIM-JAN-0016/README.md) | HBIM-JAN-0016 | 1,208 × 2,803 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) |
-| [Janela 12](elementos/HBIM-JAN-0017/README.md) | HBIM-JAN-0017 | 1,505 × 3,404 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) |
-| [Janela 13](elementos/HBIM-JAN-0018/README.md) | HBIM-JAN-0018 | 1,947 × 3,191 | [ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) |
-
-[Release v0.2.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.2.0) · [Inventário e verificações](releases/v0.2.0/README.md)
-
-## Porta 01 — pacote reorganizado
-
-[Baixar Porta 01 — HBIM-POR-0001](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip). O pacote reúne a moldura Revit, a malha OBJ e o vídeo de referência nas pastas `revit/revit2027/`, `mesh/` e `video/`. Consulte a [ficha da porta](elementos/HBIM-POR-0001/README.md).
-
-## Conteúdo da versão 0.1.0
+## Conteúdo da versão inicial
 
 | Elemento | Famílias Revit | Versão do Revit | Malha fotogramétrica | Vídeo de referência |
 | --- | --- | --- | --- | --- |
@@ -53,7 +27,9 @@ Os arquivos estão agrupados por elemento na seção [Releases](https://github.c
 ```text
 elemento/
 ├── revit/   # famílias RFA
+│   └── revit2027/  # famílias organizadas por versão, quando disponível
 ├── mesh/    # malha densa OBJ
+├── ifc/     # modelos IFC4
 └── video/   # registro visual sanitizado, sem áudio e sem metadados de captura
 ```
 
@@ -67,22 +43,32 @@ Use o arquivo `SHA256SUMS.txt` da versão para verificar a integridade dos pacot
 | `Janela_06_HBIM_v0.1.0.zip` | 496 MiB |
 | `Porta_01_HBIM_v0.1.0.zip` | 81 MiB |
 
+### Arquivos adicionados na versão 0.2.0
+
+| Elemento | Arquivos | Pacote |
+| --- | --- | --- |
+| Janela 01 | IFC4 | [HBIM-JAN-0001_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) |
+| Janela 02 | IFC4 | [HBIM-JAN-0002_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) |
+| Janela 04 | IFC4 | [HBIM-JAN-0014_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) |
+| Janela 05 | IFC4 | [HBIM-JAN-0005_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) |
+| Janela 06 | IFC4 | [HBIM-JAN-0006_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) |
+| Janela 10.2 | IFC4 | [HBIM-JAN-0015_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
+| Janela 11 | IFC4 | [HBIM-JAN-0016_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) |
+| Janela 12 | IFC4 | [HBIM-JAN-0017_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) |
+| Janela 13 | IFC4 | [HBIM-JAN-0018_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) |
+| Porta 01 | RFA, OBJ e MP4 | [HBIM-POR-0001_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip) |
+
 ## Como usar
 
-1. Baixe o pacote IFC na [v0.2.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.2.0) ou procure os pacotes com RFA, OBJ e MP4 na [v0.1.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0).
+1. Baixe o pacote do elemento desejado na [versão mais recente](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/latest).
 2. Confira o checksum SHA-256.
 3. Extraia o pacote mantendo sua estrutura de pastas.
-4. Use um visualizador BIM para ver o IFC. No Revit, abra ou vincule o arquivo.
-5. Abra os arquivos RFA da v0.1.0 em uma versão compatível do Revit.
-6. Importe a malha OBJ apenas em ferramentas que suportem a escala, a densidade e as extensões de cor utilizadas pelo arquivo.
+4. Abra os arquivos RFA em uma versão compatível do Autodesk Revit.
+5. Importe a malha OBJ apenas em ferramentas que suportem a escala, a densidade e as extensões de cor utilizadas pelo arquivo.
 
 Os arquivos RFA não são retrocompatíveis: uma família salva no Revit 2027 não abre diretamente em versões anteriores. Faça uma cópia de trabalho antes de atualizar qualquer família para uma versão mais recente.
 
-## Limitações dos modelos IFC
-
-Os sólidos IFC têm detalhes simplificados e materiais com cores de visualização. As famílias Revit publicadas anteriormente ficam na v0.1.0.
-
-## Limitações conhecidas dos arquivos da versão 0.1.0
+## Limitações conhecidas
 
 - As malhas foram geradas no RealityScan 2.2 e são densas; a maior possui aproximadamente 6,9 milhões de vértices e 13,8 milhões de faces.
 - Os arquivos OBJ possuem coordenadas de textura e referências a materiais, mas os arquivos MTL e as imagens de textura originais não estão disponíveis nesta versão. Algumas aplicações conseguem exibir as cores armazenadas junto aos vértices; outras mostrarão apenas a geometria.
@@ -101,7 +87,7 @@ Os sólidos IFC têm detalhes simplificados e materiais com cores de visualizaç
 
 Consulte [`CITATION.cff`](CITATION.cff) ou utilize, provisoriamente:
 
-> COUTINHO, Pedro Lucas; RIBEIRO, Raquel. *Biblioteca HBIM de elementos arqueados históricos*. Versão 0.2.0, 2026. Disponível em: https://github.com/Pedrovisk26/biblioteca-hbim-arcos.
+> COUTINHO, Pedro Lucas; RIBEIRO, Raquel. *Biblioteca HBIM de elementos arqueados históricos*. Versão 0.1.0, 2026. Disponível em: https://github.com/Pedrovisk26/biblioteca-hbim-arcos.
 
 Quando o artigo receber referência bibliográfica definitiva, esta seção deverá ser atualizada com título final, evento, ano, páginas e DOI, se aplicável.
 
