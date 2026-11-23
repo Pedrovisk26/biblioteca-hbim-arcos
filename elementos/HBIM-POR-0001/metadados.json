@@ -34,7 +34,13 @@
   ],
   "componentes_ausentes": [],
   "transformacoes": [],
-  "validacoes": [],
+  "validacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "procedimento": "Comparação SHA-256 por arquivo com o ZIP público da v0.1.0.",
+      "resultado": "Conteúdo idêntico nos cinco arquivos."
+    }
+  ],
   "autoria": [
     "Pedro Lucas Coutinho",
     "Raquel Ribeiro"
@@ -46,6 +52,13 @@
       "tag_biblioteca": "v0.1.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip",
       "sha256_zip": "def9b2bcfb4f509f3a943a8543d469b9c59621255ab5bef057f6e359b1f27f6b"
+    },
+    {
+      "versao_pacote": "0.2.0",
+      "tag_biblioteca": "v0.2.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip",
+      "sha256_zip": "dd4ea47571cdc43dc613d1da200f993b0d40c634d1c14a42cd878612942923cc",
+      "alteracao": "Reorganização de diretórios do ZIP da v0.1.0 com preservação integral dos arquivos."
     }
   ],
   "limitacoes": [

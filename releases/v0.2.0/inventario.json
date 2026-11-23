@@ -94,6 +94,38 @@
       "tamanho_bytes": 21121,
       "sha256": "5717eb239b2662dffad85f0f0ceb9ce43f65433aa03a0a00698fdf845266c1e4",
       "conteudo_binario_verificado": true
+    },
+    {
+      "elemento_id": "HBIM-POR-0001",
+      "elemento_legado": "Porta 01",
+      "nome": "HBIM-POR-0001_hbim_v0.2.0.zip",
+      "versao_pacote": "0.2.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip",
+      "tamanho_bytes": 84958715,
+      "sha256": "dd4ea47571cdc43dc613d1da200f993b0d40c634d1c14a42cd878612942923cc",
+      "conteudo_binario_verificado": true,
+      "arquivos": [
+        {
+          "caminho": "CITATION.cff",
+          "sha256": "abe70028e3b95f075ee185a95141cc80fa6c6ce9c9b7064ac7ed6a3aca423f90"
+        },
+        {
+          "caminho": "LICENSE.md",
+          "sha256": "168149f0aec75cf559fd663bcd6a9188c2b64ada4aac2783c695e87346a349e7"
+        },
+        {
+          "caminho": "mesh/Porta_01.obj",
+          "sha256": "4c8f0fe28ae8b352ae324e551211c9838226e480b254c0cf32fbf084db794bee"
+        },
+        {
+          "caminho": "revit/revit2027/Porta_01_MOLDURA.rfa",
+          "sha256": "90120d84cd691564dfdfb581864f5d9b02c0b937654ac7f28859fbf351dd0745"
+        },
+        {
+          "caminho": "video/Porta_01.mp4",
+          "sha256": "ef0934231ceff6573e578fe10fa34614048cd53ba8010ad1803d8258c72f71c4"
+        }
+      ]
     }
   ]
 }

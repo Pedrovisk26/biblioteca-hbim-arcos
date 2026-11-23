@@ -16,4 +16,8 @@ Reconstruções em sólidos a partir das malhas fotogramétricas, com dimensões
 
 Confira os ZIPs com [SHA256SUMS.txt](SHA256SUMS.txt) e consulte o [inventário](inventario.json). As geometrias foram verificadas com IfcOpenShell após a extração dos pacotes. O modelo de origem da Janela 04 também foi aberto no Revit 2026 como DirectShape.
 
-Os pacotes com famílias Revit, malhas e vídeos distribuídos anteriormente, inclusive a Porta 01, continuam disponíveis na [versão 0.1.0](../v0.1.0/README.md).
+## Porta 01
+
+[Baixar Porta 01 — HBIM-POR-0001](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip) · [SHA-256 do pacote da porta](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/SHA256SUMS-porta-01.txt). Esta edição reorganiza as pastas da moldura RFA, da malha OBJ e do vídeo MP4 com o conteúdo original.
+
+Os pacotes originais continuam disponíveis na [versão 0.1.0](../v0.1.0/README.md).

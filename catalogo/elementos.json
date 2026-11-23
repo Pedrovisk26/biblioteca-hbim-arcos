@@ -118,8 +118,8 @@
       "tipo": "porta",
       "edificio_id": null,
       "ficha": "elementos/HBIM-POR-0001/README.md",
-      "versao_publicada": "0.1.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip"
+      "versao_publicada": "0.2.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip"
     }
   ]
 }

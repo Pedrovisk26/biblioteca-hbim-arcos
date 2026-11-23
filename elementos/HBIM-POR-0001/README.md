@@ -1,5 +1,17 @@
 # HBIM-POR-0001 — Porta 01
 
+## Pacote reorganizado na v0.2.0
+
+[Baixar Porta 01 — HBIM-POR-0001](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip) · [SHA-256 do pacote](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/SHA256SUMS-porta-01.txt).
+
+- `revit/revit2027/Porta_01_MOLDURA.rfa`
+- `mesh/Porta_01.obj`
+- `video/Porta_01.mp4`
+
+Os cinco arquivos do pacote original, incluindo a licença e a citação, mantêm os mesmos nomes e conteúdo. A verificação comparou o SHA-256 de cada arquivo. A indicação de Revit 2027 vem da documentação da versão original. O pacote tem os mesmos formatos da v0.1.0.
+
+## Registro da versão 0.1.0
+
 Cadastro documental da versão existente, com verificação técnica por arquivo pendente. O ID organiza o catálogo e não altera o nome nem o conteúdo do pacote publicado.
 
 ## Identificação

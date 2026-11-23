@@ -30,6 +30,10 @@ Nove janelas reconstruídas em sólidos a partir das malhas fotogramétricas, co
 
 [Release v0.2.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.2.0) · [Inventário e verificações](releases/v0.2.0/README.md)
 
+## Porta 01 — pacote reorganizado
+
+[Baixar Porta 01 — HBIM-POR-0001](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip). O pacote reúne a moldura Revit, a malha OBJ e o vídeo de referência nas pastas `revit/revit2027/`, `mesh/` e `video/`. Consulte a [ficha da porta](elementos/HBIM-POR-0001/README.md).
+
 ## Conteúdo da versão 0.1.0
 
 | Elemento | Famílias Revit | Versão do Revit | Malha fotogramétrica | Vídeo de referência |
