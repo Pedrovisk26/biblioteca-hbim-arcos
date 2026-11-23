@@ -10,8 +10,9 @@
       "tipo": "janela",
       "edificio_id": null,
       "ficha": "elementos/HBIM-JAN-0001/README.md",
-      "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip"
+      "versao_publicada": "0.1.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_01_HBIM_v0.1.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0002",
@@ -22,8 +23,9 @@
       "tipo": "janela",
       "edificio_id": null,
       "ficha": "elementos/HBIM-JAN-0002/README.md",
-      "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip"
+      "versao_publicada": "0.1.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_02_HBIM_v0.1.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0005",
@@ -34,8 +36,9 @@
       "tipo": "janela",
       "edificio_id": null,
       "ficha": "elementos/HBIM-JAN-0005/README.md",
-      "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip"
+      "versao_publicada": "0.1.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_05_HBIM_v0.1.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0006",
@@ -46,8 +49,9 @@
       "tipo": "janela",
       "edificio_id": null,
       "ficha": "elementos/HBIM-JAN-0006/README.md",
-      "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip"
+      "versao_publicada": "0.1.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0014",
@@ -57,9 +61,10 @@
       ],
       "tipo": "janela",
       "edificio_id": null,
-      "ficha": "elementos/HBIM-JAN-0014/README.md",
+      "ficha": "HBIM-JAN-0014/README.md (dentro do pacote)",
       "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip"
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0015",
@@ -69,9 +74,10 @@
       ],
       "tipo": "janela",
       "edificio_id": null,
-      "ficha": "elementos/HBIM-JAN-0015/README.md",
+      "ficha": "HBIM-JAN-0015/README.md (dentro do pacote)",
       "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip"
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0016",
@@ -81,9 +87,10 @@
       ],
       "tipo": "janela",
       "edificio_id": null,
-      "ficha": "elementos/HBIM-JAN-0016/README.md",
+      "ficha": "HBIM-JAN-0016/README.md (dentro do pacote)",
       "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip"
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0017",
@@ -93,9 +100,10 @@
       ],
       "tipo": "janela",
       "edificio_id": null,
-      "ficha": "elementos/HBIM-JAN-0017/README.md",
+      "ficha": "HBIM-JAN-0017/README.md (dentro do pacote)",
       "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip"
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-JAN-0018",
@@ -105,9 +113,10 @@
       ],
       "tipo": "janela",
       "edificio_id": null,
-      "ficha": "elementos/HBIM-JAN-0018/README.md",
+      "ficha": "HBIM-JAN-0018/README.md (dentro do pacote)",
       "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip"
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip"
     },
     {
       "id": "HBIM-POR-0001",
@@ -118,8 +127,8 @@
       "tipo": "porta",
       "edificio_id": null,
       "ficha": "elementos/HBIM-POR-0001/README.md",
-      "versao_publicada": "0.2.0",
-      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip"
+      "versao_publicada": "0.1.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip"
     }
   ]
 }

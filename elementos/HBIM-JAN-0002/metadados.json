@@ -35,30 +35,11 @@
       "componente": "moldura",
       "formato": "RFA",
       "compatibilidade_por_arquivo": null
-    },
-    {
-      "componente": "conjunto",
-      "formato": "IFC",
-      "esquema": "IFC4",
-      "compatibilidade_por_arquivo": null
     }
   ],
   "componentes_ausentes": [],
-  "transformacoes": [
-    {
-      "versao_pacote": "0.2.0",
-      "processo": "Reconstrução sólida com IfcOpenShell",
-      "escala": "Escala métrica preservada do OBJ dimensionado de origem."
-    }
-  ],
-  "validacoes": [
-    {
-      "versao_pacote": "0.2.0",
-      "software": "IfcOpenShell 0.9.0.post1",
-      "procedimento": "Leitura e geração da geometria IFC4 após extração do ZIP",
-      "resultado": "aprovado"
-    }
-  ],
+  "transformacoes": [],
+  "validacoes": [],
   "autoria": [
     "Pedro Lucas Coutinho",
     "Raquel Ribeiro"
@@ -70,12 +51,6 @@
       "tag_biblioteca": "v0.1.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_02_HBIM_v0.1.0.zip",
       "sha256_zip": "78df6ee16396d7c1247cbfe67df1fe552f5735dbb770815fc665bb3d2ae42a43"
-    },
-    {
-      "versao_pacote": "0.2.0",
-      "tag_biblioteca": "v0.2.0",
-      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip",
-      "sha256_zip": "bdeea06c41870472b64a751b3ce63c779f7eb66f83bbfb8c229b1d6c314b937d"
     }
   ],
   "limitacoes": [
@@ -107,28 +82,5 @@
       "nome": "RealityScan",
       "versao": "2.2"
     }
-  },
-  "modelo_ifc": {
-    "versao_pacote": "0.2.0",
-    "arquivo": "ifc/HBIM-JAN-0002_janela-hbim_v0.2.0.ifc",
-    "esquema": "IFC4",
-    "entidade": "IfcWindow",
-    "representacao": "SweptSolid",
-    "solidos": 56,
-    "materiais": [
-      "Acabamento mineral",
-      "Madeira",
-      "Vidro"
-    ],
-    "unidade": "m",
-    "largura_vao": 1.2963,
-    "altura_vao": 2.6899,
-    "origem": "Centro da base do vão, no plano do vidro, com Z na vertical.",
-    "metodo_verificacao_escala": "Escala métrica preservada do OBJ dimensionado de origem.",
-    "limitacoes": [
-      "Perfis, profundidades, ferragens e ornamentos simplificados.",
-      "Materiais por componente sem texturas fotográficas.",
-      "Arquivo de intercâmbio sem parâmetros de uma família Revit nativa."
-    ]
   }
 }
