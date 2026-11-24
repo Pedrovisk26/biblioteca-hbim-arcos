@@ -1,6 +1,6 @@
-# Índice documental da versão 0.2.0
+# Índice dos pacotes de modelos IFC4
 
-Esta pasta documenta a [Release v0.2.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.2.0), que publica modelos IFC4 de nove janelas. Os pacotes da [versão 0.1.0](../v0.1.0/README.md), com famílias RFA, malhas OBJ e vídeos, continuam disponíveis sem alteração.
+Esta pasta documenta a [Release `v0.2.0`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.2.0), com os modelos IFC4 de nove janelas. As famílias RFA, as malhas OBJ e os vídeos das Janelas 01, 02, 05 e 06 e da Porta 01 estão nos [pacotes de famílias, malhas e vídeos](../v0.1.0/README.md).
 
 - [Inventário dos nove pacotes](inventario.json): IDs, nomes de levantamento, URLs, tamanhos em bytes e SHA-256.
 - [SHA256SUMS.txt](SHA256SUMS.txt): cópia exata do arquivo de checksums publicado na Release.
