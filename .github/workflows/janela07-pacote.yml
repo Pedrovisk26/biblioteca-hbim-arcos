@@ -1,4 +1,5 @@
 name: Janela 07 — vídeo com desfoque e pacote (uso único)
+# execução 2: inclui o IFC
 
 on:
   push:
