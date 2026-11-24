@@ -1,0 +1,42 @@
+name: Janela 07 — publicação (uso único)
+
+on:
+  push:
+    branches: [claude/upbeat-fermat-2nwn39]
+    paths: [.github/workflows/janela07-publicar.yml]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RASCUNHO_ID: "457232747"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: pacote-janela07
+          path: pacote
+          run-id: "45476796320"
+          github-token: ${{ github.token }}
+      - name: Conferir pacote
+        run: |
+          cd pacote && echo "e901b78e65fb63240c9693e3708b3398a3349bdeb8f25b71f5f6ca97d9f2d7a1  HBIM-JAN-0007_hbim_v0.2.0.zip" | sha256sum -c
+      - name: Atualizar SHA256SUMS e enviar
+        run: |
+          gh release download v0.2.0 -p SHA256SUMS.txt -D atual
+          { grep -v 'HBIM-JAN-0007_' atual/SHA256SUMS.txt; (cd pacote && sha256sum HBIM-JAN-0007_hbim_v0.2.0.zip); } | sort -k2 > pacote/SHA256SUMS.txt
+          cat pacote/SHA256SUMS.txt
+          cd pacote && gh release upload v0.2.0 HBIM-JAN-0007_hbim_v0.2.0.zip SHA256SUMS.txt --clobber
+      - name: Títulos e notas
+        run: |
+          gh release edit v0.2.0 --title "Biblioteca HBIM — modelos IFC4 de dez janelas" --notes-file envio-janela07/notas/v0.2.0.md
+          gh release edit v0.1.0 --title "Biblioteca HBIM — famílias Revit, malhas e vídeos" --notes-file envio-janela07/notas/v0.1.0.md
+          gh release view v0.2.0 --json name,assets --jq '.name, (.assets[] | "\(.name) \(.size) \(.digest)")'
+      - name: Apagar rascunho
+        run: gh api -X DELETE "repos/$GH_REPO/releases/$RASCUNHO_ID" && echo "rascunho apagado"
