@@ -2,7 +2,7 @@
 
 ## 2026-11-23 — v0.2.0
 
-- Publicado o conjunto em IFC4 com 56 sólidos, materiais por componente e vão de 1,2963 × 2,6899 m.
+- Publicado o modelo IFC4 do elemento no pacote `HBIM-JAN-0002_hbim_v0.2.0.zip`, com sua ficha. O pacote `Janela_02_HBIM_v0.1.0.zip` não foi alterado.
 
 ## 2026-10-07 — cadastro e organização documental
 

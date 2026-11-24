@@ -1,6 +1,6 @@
 # Catálogo de elementos
 
-O catálogo relaciona os IDs permanentes aos nomes e pacotes da versão 0.1.0. Cada ficha reúne disponibilidade, download, compatibilidade declarada e pendências técnicas.
+O catálogo relaciona os IDs permanentes aos nomes e pacotes publicados. A tabela abaixo reúne os pacotes da versão 0.1.0; cada ficha reúne disponibilidade, download, compatibilidade declarada e pendências técnicas.
 
 | ID e ficha | Nome legado | Componentes Revit declarados | Versões declaradas | Pacote original |
 | --- | --- | --- | --- | --- |
@@ -10,10 +10,24 @@ O catálogo relaciona os IDs permanentes aos nomes e pacotes da versão 0.1.0. C
 | [HBIM-JAN-0006](../elementos/HBIM-JAN-0006/README.md) | Janela 06 | conjunto, folha | 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip) |
 | [HBIM-POR-0001](../elementos/HBIM-POR-0001/README.md) | Porta 01 | moldura | 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip) |
 
-A numeração preserva os nomes históricos: os números 0003 e 0004 de janelas ficam reservados até esclarecer o acervo legado. Não presumir que os elementos correspondentes não existam.
+## Modelos IFC4 da versão 0.2.0
+
+A [versão 0.2.0](../releases/v0.2.0/README.md) publica modelos IFC4 de quatro janelas já catalogadas e de cinco janelas novas. Os IDs seguem o número de levantamento de cada janela: `HBIM-JAN-0004` para a Janela 04 e `HBIM-JAN-0010` a `HBIM-JAN-0013` para as Janelas 10 a 13. As fichas desses modelos estão dentro de cada pacote ZIP.
+
+| ID | Nome de levantamento | Pacote IFC4 |
+| --- | --- | --- |
+| `HBIM-JAN-0001` | Janela 01 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0002` | Janela 02 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0004` | Janela 04 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0005` | Janela 05 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0006` | Janela 06 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0010` | Janela 10 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0011` | Janela 11 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0012` | Janela 12 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0013` | Janela 13 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0013_hbim_v0.2.0.zip) |
+
+A numeração preserva os nomes históricos: o número do ID é o mesmo do levantamento. Os números sem elemento publicado (0003 e 0007 a 0009) ficam reservados para as janelas de mesmo número no levantamento. Não presumir que os elementos correspondentes não existam.
 
 O arquivo [elementos.json](elementos.json) é o índice estruturado. O mantenedor reserva novos IDs antes do início do trabalho. Os detalhes técnicos são mantidos nos metadados individuais; atualizar os campos resumidos do catálogo na mesma contribuição.
 
 Para cadastrar outro elemento, seguir o [guia](../docs/guia-colaborador.md) e copiar [os modelos](../modelos/README.md).
-
-A v0.2.0 registra as janelas 04, 10.2, 11, 12 e 13 com IDs de HBIM-JAN-0014 a HBIM-JAN-0018. Os nomes de levantamento permanecem nas fichas.
