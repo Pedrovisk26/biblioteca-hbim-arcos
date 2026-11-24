@@ -60,7 +60,7 @@ ID-do-elemento/           # modelo IFC4
 | Janela 04 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) (69 MiB) |
 | Janela 05 | [RFA, OBJ e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_05_HBIM_v0.1.0.zip) (378 MiB) · [IFC4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) (18 KiB) |
 | Janela 06 | [RFA, OBJ e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip) (496 MiB) · [IFC4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) (17 KiB) |
-| Janela 07 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip) (TAM07) |
+| Janela 07 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip) (41 MiB) |
 | Janela 10 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) (37 MiB) |
 | Janela 11 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) (56 MiB) |
 | Janela 12 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) (34 MiB) |
