@@ -1,0 +1,55 @@
+name: Vídeos v0.2.0 — etapa 2 (pacotes e publicação, uso único)
+
+on:
+  push:
+    branches: [claude/upbeat-fermat-2nwn39]
+    paths: [.github/workflows/videos-etapa2.yml]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: v0.2.0
+      RASCUNHO_ID: "456835641"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: videos-tratados
+          path: videos
+          run-id: "45409048301"
+          github-token: ${{ github.token }}
+      - name: Conferir vídeos tratados
+        run: cd videos && sha256sum -c SHA256SUMS-videos.txt 2>&1 | sed 's#saida/##' || (sed -i 's#saida/##' SHA256SUMS-videos.txt && sha256sum -c SHA256SUMS-videos.txt)
+      - name: Baixar pacotes atuais
+        run: |
+          mkdir -p atuais
+          gh release download "$TAG" -D atuais -p 'HBIM-JAN-0004_*' -p 'HBIM-JAN-0010_*' -p 'HBIM-JAN-0011_*' \
+            -p 'HBIM-JAN-0012_*' -p 'HBIM-JAN-0013_*' -p SHA256SUMS.txt
+          ls -l atuais
+          cd atuais && sha256sum -c --ignore-missing SHA256SUMS.txt
+      - name: Montar pacotes com vídeo
+        run: python3 envio-videos/montar.py atuais videos novos | tee novos.txt
+      - name: Atualizar SHA256SUMS da Release
+        run: |
+          cp atuais/SHA256SUMS.txt novos/SHA256SUMS.txt
+          while read -r hh nome tam; do
+            sed -i "s#^[0-9a-f]\{64\}  $nome\$#$hh  $nome#" novos/SHA256SUMS.txt
+          done < novos.txt
+          cat novos/SHA256SUMS.txt
+          cd novos && sha256sum -c --ignore-missing SHA256SUMS.txt
+      - name: Enviar à Release
+        run: |
+          cd novos
+          gh release upload "$TAG" HBIM-JAN-0004_hbim_v0.2.0.zip HBIM-JAN-0010_hbim_v0.2.0.zip \
+            HBIM-JAN-0011_hbim_v0.2.0.zip HBIM-JAN-0012_hbim_v0.2.0.zip HBIM-JAN-0013_hbim_v0.2.0.zip \
+            SHA256SUMS.txt --clobber
+          gh release view "$TAG" --json assets --jq '.assets[] | "\(.name) \(.size) \(.digest)"'
+      - name: Apagar rascunho com os originais
+        run: gh api -X DELETE "repos/$GH_REPO/releases/$RASCUNHO_ID" && echo "rascunho apagado"
