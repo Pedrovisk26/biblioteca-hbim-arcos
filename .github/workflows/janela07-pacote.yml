@@ -1,5 +1,5 @@
 name: Janela 07 — vídeo com desfoque e pacote (uso único)
-# execução 3: permissão para ler o rascunho
+# execução 4: caminho do vídeo no ZIP
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
         run: |
           id=$(gh api "repos/$R/releases/$RASCUNHO_ID/assets" --jq '.[] | select(.name=="projeto-janela-07.zip") | .id')
           gh api -H "Accept: application/octet-stream" "repos/$R/releases/assets/$id" > fonte.zip
-          7z e -y -oorig fonte.zip 'projeto-janela-07/Janela_07.mp4' > /dev/null && rm fonte.zip
+          7z e -y -oorig fonte.zip -r 'Janela_07.mp4' > /dev/null && rm fonte.zip
           ls -l orig
       - name: Converter com desfoque do trecho da rua
         run: |
