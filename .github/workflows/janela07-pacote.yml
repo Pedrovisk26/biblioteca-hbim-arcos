@@ -1,5 +1,5 @@
 name: Janela 07 — vídeo com desfoque e pacote (uso único)
-# execução 2: inclui o IFC
+# execução 3: permissão para ler o rascunho
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     paths: [.github/workflows/janela07-pacote.yml]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   pacote:
