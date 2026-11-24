@@ -53,13 +53,13 @@ Os nove arquivos foram reabertos no IfcOpenShell para conferir o esquema IFC4, a
 | --- | --- | --- | --- |
 | Janela 01 | `HBIM-JAN-0001` | IFC4 | 1,876 × 2,838 |
 | Janela 02 | `HBIM-JAN-0002` | IFC4 | 1,296 × 2,690 |
-| Janela 04 | `HBIM-JAN-0014` | IFC4 | 1,180 × 2,698 |
+| Janela 04 | `HBIM-JAN-0004` | IFC4 | 1,180 × 2,698 |
 | Janela 05 | `HBIM-JAN-0005` | IFC4 | 1,452 × 3,384 |
 | Janela 06 | `HBIM-JAN-0006` | IFC4 | 1,513 × 2,905 |
-| Janela 10 | `HBIM-JAN-0015` | IFC4 | 1,192 × 2,707 |
-| Janela 11 | `HBIM-JAN-0016` | IFC4 | 1,208 × 2,803 |
-| Janela 12 | `HBIM-JAN-0017` | IFC4 | 1,505 × 3,404 |
-| Janela 13 | `HBIM-JAN-0018` | IFC4 | 1,947 × 3,191 |
+| Janela 10 | `HBIM-JAN-0010` | IFC4 | 1,192 × 2,707 |
+| Janela 11 | `HBIM-JAN-0011` | IFC4 | 1,208 × 2,803 |
+| Janela 12 | `HBIM-JAN-0012` | IFC4 | 1,505 × 3,404 |
+| Janela 13 | `HBIM-JAN-0013` | IFC4 | 1,947 × 3,191 |
 
 Cada pacote da versão 0.2.0 contém:
 
@@ -78,13 +78,13 @@ ID-do-elemento/
 | --- | ---: |
 | [`HBIM-JAN-0001_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) | 19 KiB |
 | [`HBIM-JAN-0002_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) | 19 KiB |
-| [`HBIM-JAN-0014_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) | 20 KiB |
+| [`HBIM-JAN-0004_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) | 20 KiB |
 | [`HBIM-JAN-0005_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) | 18 KiB |
 | [`HBIM-JAN-0006_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) | 17 KiB |
-| [`HBIM-JAN-0015_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) | 15 KiB |
-| [`HBIM-JAN-0016_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) | 14 KiB |
-| [`HBIM-JAN-0017_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) | 21 KiB |
-| [`HBIM-JAN-0018_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) | 21 KiB |
+| [`HBIM-JAN-0010_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) | 15 KiB |
+| [`HBIM-JAN-0011_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) | 14 KiB |
+| [`HBIM-JAN-0012_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) | 21 KiB |
+| [`HBIM-JAN-0013_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0013_hbim_v0.2.0.zip) | 21 KiB |
 
 ## Como usar
 
