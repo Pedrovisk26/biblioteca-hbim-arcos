@@ -68,9 +68,9 @@
     },
     {
       "id": "HBIM-JAN-0015",
-      "nome": "Janela 10.2",
+      "nome": "Janela 10",
       "nomes_legados": [
-        "Janela 10.2"
+        "Janela 10"
       ],
       "tipo": "janela",
       "edificio_id": null,

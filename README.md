@@ -43,7 +43,7 @@ Use o arquivo `SHA256SUMS.txt` da versão para verificar a integridade dos pacot
 
 ## Conteúdo da versão 0.2.0
 
-Após o envio do manuscrito ao congresso, um estudo complementar gerou modelos IFC4 de nove janelas. Quatro delas já integravam a versão inicial (Janelas 01, 02, 05 e 06) e cinco são novas na biblioteca (Janelas 04, 10.2, 11, 12 e 13). Esta versão acrescenta somente os modelos IFC4; as famílias RFA, as malhas OBJ e os vídeos continuam disponíveis nos pacotes da [versão 0.1.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0).
+Após o envio do manuscrito ao congresso, um estudo complementar gerou modelos IFC4 de nove janelas. Quatro delas já integravam a versão inicial (Janelas 01, 02, 05 e 06) e cinco são novas na biblioteca (Janelas 04, 10, 11, 12 e 13). Esta versão acrescenta somente os modelos IFC4; as famílias RFA, as malhas OBJ e os vídeos continuam disponíveis nos pacotes da [versão 0.1.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0).
 
 A reconstrução em sólidos partiu de vistas ortográficas das malhas fotogramétricas em OBJ e da conferência visual de vídeos ou fotogramas do levantamento. O Codex (OpenAI), ferramenta de inteligência artificial generativa, auxiliou na elaboração de scripts em Python. Os scripts usaram a biblioteca IfcOpenShell (versão 0.9.0.post1) para gerar os arquivos IFC4, com materiais de representação atribuídos aos componentes.
 
@@ -56,7 +56,7 @@ Os nove arquivos foram reabertos no IfcOpenShell para conferir o esquema IFC4, a
 | Janela 04 | `HBIM-JAN-0014` | IFC4 | 1,180 × 2,698 |
 | Janela 05 | `HBIM-JAN-0005` | IFC4 | 1,452 × 3,384 |
 | Janela 06 | `HBIM-JAN-0006` | IFC4 | 1,513 × 2,905 |
-| Janela 10.2 | `HBIM-JAN-0015` | IFC4 | 1,192 × 2,707 |
+| Janela 10 | `HBIM-JAN-0015` | IFC4 | 1,192 × 2,707 |
 | Janela 11 | `HBIM-JAN-0016` | IFC4 | 1,208 × 2,803 |
 | Janela 12 | `HBIM-JAN-0017` | IFC4 | 1,505 × 3,404 |
 | Janela 13 | `HBIM-JAN-0018` | IFC4 | 1,947 × 3,191 |

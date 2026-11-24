@@ -21,7 +21,7 @@ A [versão 0.2.0](../releases/v0.2.0/README.md) publica modelos IFC4 de quatro j
 | `HBIM-JAN-0005` | Janela 05 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) |
 | `HBIM-JAN-0006` | Janela 06 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) |
 | `HBIM-JAN-0014` | Janela 04 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) |
-| `HBIM-JAN-0015` | Janela 10.2 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
+| `HBIM-JAN-0015` | Janela 10 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
 | `HBIM-JAN-0016` | Janela 11 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) |
 | `HBIM-JAN-0017` | Janela 12 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) |
 | `HBIM-JAN-0018` | Janela 13 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) |
