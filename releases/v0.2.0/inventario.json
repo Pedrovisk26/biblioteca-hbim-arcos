@@ -31,8 +31,8 @@
       "nome": "HBIM-JAN-0004_hbim_v0.2.0.zip",
       "versao_pacote": "0.2.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip",
-      "tamanho_bytes": 20597,
-      "sha256": "c8b6c0954913386e203b75df2c3272195309013c48a2415a180c86bfee7615d8",
+      "tamanho_bytes": 72257401,
+      "sha256": "321c44a34b5f013a6e7b75825dea211bd59847b6a8e4f6e9d0aba23d24ebf309",
       "conteudo_binario_verificado": true
     },
     {
@@ -61,8 +61,8 @@
       "nome": "HBIM-JAN-0010_hbim_v0.2.0.zip",
       "versao_pacote": "0.2.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip",
-      "tamanho_bytes": 14974,
-      "sha256": "c592bba686c35ebeea8793f2a4d17b410d5d318018cb5f958e32fdee2f8556da",
+      "tamanho_bytes": 39179519,
+      "sha256": "87ad99666f25d84b0461887791b1dfeb9a3141617116827885f447b6cc034476",
       "conteudo_binario_verificado": true
     },
     {
@@ -71,8 +71,8 @@
       "nome": "HBIM-JAN-0011_hbim_v0.2.0.zip",
       "versao_pacote": "0.2.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip",
-      "tamanho_bytes": 14621,
-      "sha256": "ce51b5c79c9dff86f6cb8a5c1951f9fd4816c4ea94d5f27a306d8ce45dd309c9",
+      "tamanho_bytes": 58268069,
+      "sha256": "b48b93079f4871479b212ecabeedc8419f93277dfe55699b68d59416c7cfe649",
       "conteudo_binario_verificado": true
     },
     {
@@ -81,8 +81,8 @@
       "nome": "HBIM-JAN-0012_hbim_v0.2.0.zip",
       "versao_pacote": "0.2.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip",
-      "tamanho_bytes": 21046,
-      "sha256": "4ee66f5059738d44f543d01d8ce8715d036b0e6566a5f185807f45b246ae288f",
+      "tamanho_bytes": 35912499,
+      "sha256": "84420d96d5756cbe3aa4e82411de46232b6c9c48a639d42da9fd46fca5de442c",
       "conteudo_binario_verificado": true
     },
     {
@@ -91,8 +91,8 @@
       "nome": "HBIM-JAN-0013_hbim_v0.2.0.zip",
       "versao_pacote": "0.2.0",
       "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0013_hbim_v0.2.0.zip",
-      "tamanho_bytes": 21108,
-      "sha256": "8ed0f89121b2bfb237fe94a82db3a082748c364a58886791124102e0f177211c",
+      "tamanho_bytes": 53276018,
+      "sha256": "c840e90b8139a5b44f28b891809cb3282eea0a63294a2c6bff4b0f71cd89f9de",
       "conteudo_binario_verificado": true
     }
   ]

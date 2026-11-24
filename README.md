@@ -43,29 +43,30 @@ Use o arquivo `SHA256SUMS.txt` da versão para verificar a integridade dos pacot
 
 ## Conteúdo da versão 0.2.0
 
-Após o envio do manuscrito ao congresso, um estudo complementar gerou modelos IFC4 de nove janelas. Quatro delas já integravam a versão inicial (Janelas 01, 02, 05 e 06) e cinco são novas na biblioteca (Janelas 04, 10, 11, 12 e 13). Esta versão acrescenta somente os modelos IFC4; as famílias RFA, as malhas OBJ e os vídeos continuam disponíveis nos pacotes da [versão 0.1.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0).
+Após o envio do manuscrito ao congresso, um estudo complementar gerou modelos IFC4 de nove janelas. Quatro delas já integravam a versão inicial (Janelas 01, 02, 05 e 06) e cinco são novas na biblioteca (Janelas 04, 10, 11, 12 e 13). Esta versão acrescenta os modelos IFC4 e, para as cinco janelas novas, o vídeo de referência sem áudio. As famílias RFA, as malhas OBJ e os vídeos das Janelas 01, 02, 05 e 06 continuam disponíveis nos pacotes da [versão 0.1.0](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/tag/v0.1.0).
 
 A reconstrução em sólidos partiu de vistas ortográficas das malhas fotogramétricas em OBJ e da conferência visual de vídeos ou fotogramas do levantamento. O Codex (OpenAI), ferramenta de inteligência artificial generativa, auxiliou na elaboração de scripts em Python. Os scripts usaram a biblioteca IfcOpenShell (versão 0.9.0.post1) para gerar os arquivos IFC4, com materiais de representação atribuídos aos componentes.
 
 Os nove arquivos foram reabertos no IfcOpenShell para conferir o esquema IFC4, a geometria dos sólidos e as associações de materiais. O IFC da Janela 04 também foi aberto no Autodesk Revit 2026, onde foi importado como DirectShape na categoria Janelas.
 
-| Elemento | ID | Modelo | Vão (largura × altura, m) |
+| Elemento | ID | Arquivos | Vão (largura × altura, m) |
 | --- | --- | --- | --- |
 | Janela 01 | `HBIM-JAN-0001` | IFC4 | 1,876 × 2,838 |
 | Janela 02 | `HBIM-JAN-0002` | IFC4 | 1,296 × 2,690 |
-| Janela 04 | `HBIM-JAN-0004` | IFC4 | 1,180 × 2,698 |
+| Janela 04 | `HBIM-JAN-0004` | IFC4 e MP4 sem áudio | 1,180 × 2,698 |
 | Janela 05 | `HBIM-JAN-0005` | IFC4 | 1,452 × 3,384 |
 | Janela 06 | `HBIM-JAN-0006` | IFC4 | 1,513 × 2,905 |
-| Janela 10 | `HBIM-JAN-0010` | IFC4 | 1,192 × 2,707 |
-| Janela 11 | `HBIM-JAN-0011` | IFC4 | 1,208 × 2,803 |
-| Janela 12 | `HBIM-JAN-0012` | IFC4 | 1,505 × 3,404 |
-| Janela 13 | `HBIM-JAN-0013` | IFC4 | 1,947 × 3,191 |
+| Janela 10 | `HBIM-JAN-0010` | IFC4 e MP4 sem áudio | 1,192 × 2,707 |
+| Janela 11 | `HBIM-JAN-0011` | IFC4 e MP4 sem áudio | 1,208 × 2,803 |
+| Janela 12 | `HBIM-JAN-0012` | IFC4 e MP4 sem áudio | 1,505 × 3,404 |
+| Janela 13 | `HBIM-JAN-0013` | IFC4 e MP4 sem áudio | 1,947 × 3,191 |
 
 Cada pacote da versão 0.2.0 contém:
 
 ```text
 ID-do-elemento/
 ├── ifc/              # modelo IFC4
+├── video/            # vídeo de referência sem áudio (janelas 04, 10, 11, 12 e 13)
 ├── README.md         # ficha do elemento
 ├── metadados.json
 ├── inventario.json   # lista dos arquivos do pacote
@@ -78,13 +79,13 @@ ID-do-elemento/
 | --- | ---: |
 | [`HBIM-JAN-0001_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) | 19 KiB |
 | [`HBIM-JAN-0002_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) | 19 KiB |
-| [`HBIM-JAN-0004_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) | 20 KiB |
+| [`HBIM-JAN-0004_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) | 69 MiB |
 | [`HBIM-JAN-0005_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) | 18 KiB |
 | [`HBIM-JAN-0006_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) | 17 KiB |
-| [`HBIM-JAN-0010_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) | 15 KiB |
-| [`HBIM-JAN-0011_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) | 14 KiB |
-| [`HBIM-JAN-0012_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) | 21 KiB |
-| [`HBIM-JAN-0013_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0013_hbim_v0.2.0.zip) | 21 KiB |
+| [`HBIM-JAN-0010_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) | 37 MiB |
+| [`HBIM-JAN-0011_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) | 56 MiB |
+| [`HBIM-JAN-0012_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) | 34 MiB |
+| [`HBIM-JAN-0013_hbim_v0.2.0.zip`](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0013_hbim_v0.2.0.zip) | 51 MiB |
 
 ## Como usar
 
