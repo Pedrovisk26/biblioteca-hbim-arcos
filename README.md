@@ -49,13 +49,13 @@ Use o arquivo `SHA256SUMS.txt` da versão para verificar a integridade dos pacot
 | --- | --- | --- |
 | Janela 01 | IFC4 | [HBIM-JAN-0001_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0001_hbim_v0.2.0.zip) |
 | Janela 02 | IFC4 | [HBIM-JAN-0002_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0002_hbim_v0.2.0.zip) |
-| Janela 04 | IFC4 | [HBIM-JAN-0014_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) |
+| Janela 04 | IFC4 | [HBIM-JAN-0004_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0014_hbim_v0.2.0.zip) |
 | Janela 05 | IFC4 | [HBIM-JAN-0005_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) |
 | Janela 06 | IFC4 | [HBIM-JAN-0006_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) |
-| Janela 10.2 | IFC4 | [HBIM-JAN-0015_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
-| Janela 11 | IFC4 | [HBIM-JAN-0016_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) |
-| Janela 12 | IFC4 | [HBIM-JAN-0017_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) |
-| Janela 13 | IFC4 | [HBIM-JAN-0018_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) |
+| Janela 10.2 | IFC4 | [HBIM-JAN-0010.2_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0015_hbim_v0.2.0.zip) |
+| Janela 11 | IFC4 | [HBIM-JAN-0011_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0016_hbim_v0.2.0.zip) |
+| Janela 12 | IFC4 | [HBIM-JAN-0012_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0017_hbim_v0.2.0.zip) |
+| Janela 13 | IFC4 | [HBIM-JAN-0013_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0018_hbim_v0.2.0.zip) |
 | Porta 01 | RFA, OBJ e MP4 | [HBIM-POR-0001_hbim_v0.2.0.zip](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-POR-0001_hbim_v0.2.0.zip) |
 
 ## Como usar
