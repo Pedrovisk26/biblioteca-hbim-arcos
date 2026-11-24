@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "estado": "publicado",
+  "elemento_id": "HBIM-JAN-0007",
+  "versao_pacote": "0.2.0",
+  "arquivos": [
+    {
+      "caminho": "CITATION.cff",
+      "funcao": "documentacao",
+      "componente": null,
+      "formato": "CFF",
+      "software": null,
+      "unidades": null,
+      "tamanho_bytes": 914,
+      "sha256": "e4053a4d9b9641904865bb8a4862213d11244c8663f66fde1c9e9c861db91ffe",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    },
+    {
+      "caminho": "LICENSE.md",
+      "funcao": "documentacao",
+      "componente": null,
+      "formato": "MD",
+      "software": null,
+      "unidades": null,
+      "tamanho_bytes": 1598,
+      "sha256": "168149f0aec75cf559fd663bcd6a9188c2b64ada4aac2783c695e87346a349e7",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    },
+    {
+      "caminho": "README.md",
+      "funcao": "documentacao",
+      "componente": null,
+      "formato": "MD",
+      "software": null,
+      "unidades": null,
+      "tamanho_bytes": 1253,
+      "sha256": "b607f2754f22f9e28aaab07ee70c28864ddf7f31bbbf1ce14fa8ec3748a0c655",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    },
+    {
+      "caminho": "ifc/HBIM-JAN-0007_janela-hbim_v0.2.0.ifc",
+      "funcao": "modelo-bim",
+      "componente": "conjunto",
+      "formato": "IFC",
+      "software": {
+        "nome": "IfcOpenShell",
+        "versao": "0.9.0.post1"
+      },
+      "unidades": "m",
+      "tamanho_bytes": 65320,
+      "sha256": "096011b546793f1cf5abd5f69c0debdbb7c8856fa8cfd1eb2c3562423491fa39",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    },
+    {
+      "caminho": "metadados.json",
+      "funcao": "documentacao",
+      "componente": null,
+      "formato": "JSON",
+      "software": null,
+      "unidades": null,
+      "tamanho_bytes": 3191,
+      "sha256": "be81e794632f1296875f135c726175c407d01c5d634a6ed645136b075ac91cb9",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    },
+    {
+      "caminho": "video/HBIM-JAN-0007_referencia-sem-audio_h264_v0.2.0.mp4",
+      "funcao": "referencia-visual",
+      "componente": null,
+      "formato": "MP4",
+      "software": null,
+      "unidades": null,
+      "tamanho_bytes": 35891029,
+      "sha256": "a4929b55e2ddb57afd3526c53b610949c7abafba01ed1e8e44186697f6c3aa35",
+      "dependencias": [],
+      "licenca": "CC-BY-4.0"
+    }
+  ]
+}

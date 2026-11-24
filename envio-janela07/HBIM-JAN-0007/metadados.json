@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "id": "HBIM-JAN-0007",
+  "nome": "Janela 07",
+  "nomes_legados": [
+    "Janela 07"
+  ],
+  "tipo": "janela",
+  "edificio_id": null,
+  "classificacao": {
+    "forma_arco": "abatido",
+    "linguagem_arquitetonica": null,
+    "evidencia": "Descrição do tipo no modelo IFC: quatro painéis inferiores com bandeira em arco abatido e grade frontal."
+  },
+  "procedencia": {
+    "sessao_id": null,
+    "metodo": "Reconstrução em sólidos a partir de vistas ortográficas da malha OBJ e conferência com fotogramas do vídeo.",
+    "data_captura": null,
+    "referencia_publica_fonte": null
+  },
+  "geometria": {
+    "unidade_malha": "m",
+    "unidade_parametros_dimensionais": "m",
+    "sistema_coordenadas": "local",
+    "origem": "Centro da base do vão; X horizontal, Y profundidade, Z vertical.",
+    "metodo_verificacao_escala": "Escala do OBJ preservada; dimensões obtidas da leitura da malha."
+  },
+  "componentes_disponiveis": [
+    {
+      "componente": "conjunto",
+      "formato": "IFC",
+      "esquema": "IFC4",
+      "compatibilidade_por_arquivo": null
+    },
+    {
+      "componente": "referencia-visual",
+      "formato": "MP4",
+      "arquivo": "video/HBIM-JAN-0007_referencia-sem-audio_h264_v0.2.0.mp4",
+      "codec": "H.264",
+      "resolucao": "608 × 1080",
+      "audio": false,
+      "compatibilidade_por_arquivo": null
+    }
+  ],
+  "componentes_ausentes": [
+    {
+      "formato": "RFA",
+      "motivo": "A versão 0.2.0 distribui o modelo IFC."
+    },
+    {
+      "formato": "OBJ",
+      "motivo": "Fontes e malhas não integram este pacote IFC."
+    }
+  ],
+  "transformacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "processo": "Reconstrução sólida com IfcOpenShell",
+      "escala": "Escala do OBJ preservada; dimensões obtidas da leitura da malha.",
+      "translacao_da_fonte": "Aproximada X +0,1625 m, Y +0,66 m e Z -0,40 m, sem alteração de escala."
+    },
+    {
+      "versao_pacote": "0.2.0",
+      "processo": "Vídeo convertido para H.264 608 × 1080 sem áudio e sem metadados; canto inferior esquerdo desfocado entre 35,8 s e 39,2 s."
+    }
+  ],
+  "validacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "software": "IfcOpenShell 0.9.0.post1",
+      "procedimento": "Leitura e geração da geometria IFC4 após extração do ZIP",
+      "resultado": "aprovado"
+    }
+  ],
+  "autoria": [
+    "Pedro Lucas Coutinho",
+    "Raquel Ribeiro"
+  ],
+  "licenca": "CC-BY-4.0",
+  "publicacoes": [
+    {
+      "versao_pacote": "0.2.0",
+      "tag_biblioteca": "v0.2.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip"
+    }
+  ],
+  "limitacoes": [],
+  "pendencias": [
+    "Confirmar edifício e sessão de captura."
+  ],
+  "estado": "ifc-validado",
+  "revisado_por": null,
+  "data_revisao": null,
+  "modelo_ifc": {
+    "versao_pacote": "0.2.0",
+    "arquivo": "ifc/HBIM-JAN-0007_janela-hbim_v0.2.0.ifc",
+    "esquema": "IFC4",
+    "entidade": "IfcWindow",
+    "representacao": "SweptSolid",
+    "solidos": 129,
+    "materiais": [
+      "Arco em tijolo aparente",
+      "Caixilho escuro",
+      "Grade metálica",
+      "Juntas do arco",
+      "Moldura clara",
+      "Tela metálica simplificada",
+      "Vidro"
+    ],
+    "unidade": "m",
+    "largura_vao": 1.965,
+    "altura_vao": 2.56,
+    "origem": "Centro da base do vão, com X horizontal, Y na profundidade e Z na vertical.",
+    "metodo_verificacao_escala": "Escala do OBJ preservada; dimensões obtidas da leitura da malha.",
+    "limitacoes": [
+      "Perfis e profundidades aproximados.",
+      "Tela metálica representada por superfícies finas, sem fios individuais.",
+      "Materiais com cores e nomes de representação visual, sem ensaios de caracterização.",
+      "Arquivo de intercâmbio sem parâmetros de uma família Revit nativa."
+    ]
+  }
+}
