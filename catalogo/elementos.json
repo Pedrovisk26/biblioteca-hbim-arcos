@@ -67,6 +67,19 @@
       "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip"
     },
     {
+      "id": "HBIM-JAN-0007",
+      "nome": "Janela 07",
+      "nomes_legados": [
+        "Janela 07"
+      ],
+      "tipo": "janela",
+      "edificio_id": null,
+      "ficha": "HBIM-JAN-0007/README.md (dentro do pacote)",
+      "versao_publicada": "0.2.0",
+      "url_pacote": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip",
+      "url_pacote_ifc": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip"
+    },
+    {
       "id": "HBIM-JAN-0010",
       "nome": "Janela 10",
       "nomes_legados": [

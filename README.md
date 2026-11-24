@@ -21,6 +21,7 @@ Este repositório acompanha um **manuscrito em elaboração** para o 9º Congres
 | Janela 04 | `HBIM-JAN-0004` | — | — | — | IFC4 | MP4 sem áudio | 1,180 × 2,698 |
 | Janela 05 | `HBIM-JAN-0005` | conjunto | 2027 | OBJ | IFC4 | MP4 sem áudio | 1,452 × 3,384 |
 | Janela 06 | `HBIM-JAN-0006` | conjunto e folha | 2027 | OBJ | IFC4 | MP4 sem áudio | 1,513 × 2,905 |
+| Janela 07 | `HBIM-JAN-0007` | — | — | — | IFC4 | MP4 sem áudio | 1,965 × 2,560 |
 | Janela 10 | `HBIM-JAN-0010` | — | — | — | IFC4 | MP4 sem áudio | 1,192 × 2,707 |
 | Janela 11 | `HBIM-JAN-0011` | — | — | — | IFC4 | MP4 sem áudio | 1,208 × 2,803 |
 | Janela 12 | `HBIM-JAN-0012` | — | — | — | IFC4 | MP4 sem áudio | 1,505 × 3,404 |
@@ -59,6 +60,7 @@ ID-do-elemento/           # modelo IFC4
 | Janela 04 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0004_hbim_v0.2.0.zip) (69 MiB) |
 | Janela 05 | [RFA, OBJ e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_05_HBIM_v0.1.0.zip) (378 MiB) · [IFC4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0005_hbim_v0.2.0.zip) (18 KiB) |
 | Janela 06 | [RFA, OBJ e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip) (496 MiB) · [IFC4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0006_hbim_v0.2.0.zip) (17 KiB) |
+| Janela 07 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip) (TAM07) |
 | Janela 10 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0010_hbim_v0.2.0.zip) (37 MiB) |
 | Janela 11 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0011_hbim_v0.2.0.zip) (56 MiB) |
 | Janela 12 | [IFC4 e MP4](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0012_hbim_v0.2.0.zip) (34 MiB) |
