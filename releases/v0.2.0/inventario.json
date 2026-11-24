@@ -56,6 +56,16 @@
       "conteudo_binario_verificado": true
     },
     {
+      "elemento_id": "HBIM-JAN-0007",
+      "elemento_legado": "Janela 07",
+      "nome": "HBIM-JAN-0007_hbim_v0.2.0.zip",
+      "versao_pacote": "0.2.0",
+      "url": "https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.2.0/HBIM-JAN-0007_hbim_v0.2.0.zip",
+      "tamanho_bytes": 43445745,
+      "sha256": "e901b78e65fb63240c9693e3708b3398a3349bdeb8f25b71f5f6ca97d9f2d7a1",
+      "conteudo_binario_verificado": true
+    },
+    {
       "elemento_id": "HBIM-JAN-0010",
       "elemento_legado": "Janela 10",
       "nome": "HBIM-JAN-0010_hbim_v0.2.0.zip",
