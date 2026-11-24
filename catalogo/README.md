@@ -1,8 +1,8 @@
 # Catálogo de elementos
 
-O catálogo relaciona os IDs permanentes aos nomes e pacotes publicados. A tabela abaixo reúne os pacotes da versão 0.1.0; cada ficha reúne disponibilidade, download, compatibilidade declarada e pendências técnicas.
+O catálogo relaciona os IDs permanentes aos nomes e pacotes publicados. A tabela abaixo reúne os pacotes de famílias Revit, malhas e vídeos; cada ficha reúne disponibilidade, download, compatibilidade declarada e pendências técnicas.
 
-| ID e ficha | Nome legado | Componentes Revit declarados | Versões declaradas | Pacote original |
+| ID e ficha | Nome legado | Componentes Revit declarados | Versões declaradas | Pacote |
 | --- | --- | --- | --- | --- |
 | [HBIM-JAN-0001](../elementos/HBIM-JAN-0001/README.md) | Janela 01 | conjunto, bandeira, folha | 2026 / 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_01_HBIM_v0.1.0.zip) |
 | [HBIM-JAN-0002](../elementos/HBIM-JAN-0002/README.md) | Janela 02 | folha, moldura | 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_02_HBIM_v0.1.0.zip) |
@@ -10,9 +10,9 @@ O catálogo relaciona os IDs permanentes aos nomes e pacotes publicados. A tabel
 | [HBIM-JAN-0006](../elementos/HBIM-JAN-0006/README.md) | Janela 06 | conjunto, folha | 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Janela_06_HBIM_v0.1.0.zip) |
 | [HBIM-POR-0001](../elementos/HBIM-POR-0001/README.md) | Porta 01 | moldura | 2027 | [Baixar ZIP](https://github.com/Pedrovisk26/biblioteca-hbim-arcos/releases/download/v0.1.0/Porta_01_HBIM_v0.1.0.zip) |
 
-## Modelos IFC4 da versão 0.2.0
+## Modelos IFC4
 
-A [versão 0.2.0](../releases/v0.2.0/README.md) publica modelos IFC4 de quatro janelas já catalogadas e de cinco janelas novas. Os IDs seguem o número de levantamento de cada janela: `HBIM-JAN-0004` para a Janela 04 e `HBIM-JAN-0010` a `HBIM-JAN-0013` para as Janelas 10 a 13. As fichas desses modelos estão dentro de cada pacote ZIP.
+Nove janelas têm modelo IFC4 ([inventário e checksums](../releases/v0.2.0/README.md)). Os IDs seguem o número de levantamento de cada janela: `HBIM-JAN-0004` para a Janela 04 e `HBIM-JAN-0010` a `HBIM-JAN-0013` para as Janelas 10 a 13. As fichas desses modelos estão dentro de cada pacote ZIP.
 
 | ID | Nome de levantamento | Pacote IFC4 |
 | --- | --- | --- |
